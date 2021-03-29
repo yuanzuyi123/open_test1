@@ -1,0 +1,56 @@
+{
+  "uid" : "b4570af5df328ea0",
+  "name" : "test_failure",
+  "fullName" : "test_alluredemo#test_failure",
+  "historyId" : "e3535563f27e644c4a3371e45c952575",
+  "time" : {
+    "start" : 1616899047637,
+    "stop" : 1616899047637,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "def test_failure():\n    \n    \n>       assert False\nE       assert False\n\ntest_alluredemo.py:12: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_alluredemo"
+  }, {
+    "name" : "host",
+    "value" : "SKY-20200805OYN"
+  }, {
+    "name" : "thread",
+    "value" : "2164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_alluredemo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b4570af5df328ea0.json",
+  "parameterValues" : [ ]
+}

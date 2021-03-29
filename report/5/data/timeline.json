@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SKY-20200805OYN",
+    "children" : [ {
+      "name" : "2164-MainThread",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "98e9ccb35becdb9b",
+        "parentUid" : "0bc5d487c7dab5a1aa15bc0b1b2e03d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616899047699,
+          "stop" : 1616899047699,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_failure",
+        "uid" : "b4570af5df328ea0",
+        "parentUid" : "0bc5d487c7dab5a1aa15bc0b1b2e03d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616899047637,
+          "stop" : 1616899047637,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_skip",
+        "uid" : "67eb6ba330c8799e",
+        "parentUid" : "0bc5d487c7dab5a1aa15bc0b1b2e03d9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616899047694,
+          "stop" : 1616899047694,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_success",
+        "uid" : "b0821b126bfd3be",
+        "parentUid" : "0bc5d487c7dab5a1aa15bc0b1b2e03d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616899047633,
+          "stop" : 1616899047634,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0bc5d487c7dab5a1aa15bc0b1b2e03d9"
+    } ],
+    "uid" : "8c04940669497a68933a52f4496aff06"
+  } ]
+}
